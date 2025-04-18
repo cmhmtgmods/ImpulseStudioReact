@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font Imports */
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/outfit/Outfit-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/outfit/Outfit-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/outfit/Outfit-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/jetbrains/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Base Styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-dark-background text-dark-white font-sans dark:bg-dark-background dark:text-dark-white;
+  }
+
+  body.light {
+    @apply bg-light-background text-light-black;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  p {
+    @apply text-dark-gray dark:text-dark-gray;
+  }
+
+  /* Light mode styles */
+  .light p {
+    @apply text-light-gray;
+  }
+}
+
+/* Component Styles */
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-full font-medium transition-all duration-300 inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white shadow-md hover:bg-primary-dark hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white shadow-md hover:bg-secondary-dark hover:shadow-lg;
+  }
+
+  .btn-outline {
+    @apply border border-dark-gray/20 text-dark-white hover:border-primary hover:text-primary;
+  }
+
+  .light .btn-outline {
+    @apply border border-light-gray/20 text-light-black hover:border-primary hover:text-primary;
+  }
+
+  .section-title {
+    @apply mb-4 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-dark-gray max-w-2xl mx-auto text-center mb-12;
+  }
+
+  .light .section-subtitle {
+    @apply text-light-gray;
+  }
+
+  .card {
+    @apply bg-dark-surface p-6 rounded-lg border border-white/5 transition-all duration-300;
+  }
+
+  .light .card {
+    @apply bg-light-surface border-black/5 shadow-sm;
+  }
+
+  .card-hover {
+    @apply hover:border-primary/20 hover:shadow-highlight hover:-translate-y-1;
+  }
+
+  /* Gradient Effects */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text;
+  }
+
+  /* Container */
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6;
+  }
+}
+
+/* Utility Styles */
+@layer utilities {
+  .noise-bg {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .blur-backdrop {
+    @apply backdrop-blur-md bg-dark-background/80;
+  }
+
+  .light .blur-backdrop {
+    @apply backdrop-blur-md bg-light-surface/80;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-background/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/70;
+}
+
+/* Special effects */
+.glow {
+  box-shadow: 0 0 30px rgba(116, 105, 247, 0.4);
+}
+
+.bg-grid {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}

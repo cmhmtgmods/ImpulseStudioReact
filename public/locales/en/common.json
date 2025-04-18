@@ -1,0 +1,259 @@
+{
+    "site": {
+      "title": "Impulse Studio | Quality Solutions, Smart Pricing",
+      "description": "Impulse Studio creates innovative digital experiences with cutting-edge web development solutions."
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "hero": {
+      "title": "We create websites that sell!",
+      "subtitle": "We design & develop websites and applications that stand out and drive results.",
+      "cta": "Start a Project",
+      "secondary": "Our Services"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Modern solutions for your business at affordable prices",
+      "web": {
+        "title": "Web Development",
+        "description": "From simple landing pages to complex corporate portals with custom design.",
+        "features": [
+          "Responsive design",
+          "SEO optimization",
+          "Fast loading speed",
+          "Cross-device compatibility"
+        ]
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "We create intuitive and visually appealing interfaces for websites and applications.",
+        "features": [
+          "Prototyping",
+          "User research",
+          "Design systems",
+          "Animations and effects"
+        ]
+      },
+      "logo": {
+        "title": "Logo Design",
+        "description": "Unique memorable logos that reflect the values and character of your brand.",
+        "features": [
+          "Unique design",
+          "Multiple options to choose from",
+          "Files in various formats",
+          "Usage guidelines"
+        ]
+      },
+      "branding": {
+        "title": "Business Cards & Branding",
+        "description": "Full range of corporate identity development services for your business.",
+        "features": [
+          "Corporate identity",
+          "Business cards and letterheads",
+          "Brand book",
+          "Marketing materials"
+        ]
+      },
+      "marketing": {
+        "title": "Business Promotion",
+        "description": "Comprehensive promotion in search engines, social networks, and content marketing.",
+        "features": [
+          "SEO optimization",
+          "Content strategy",
+          "Social media",
+          "Analytics and reports"
+        ]
+      },
+      "advertising": {
+        "title": "Advertising Setup",
+        "description": "Effective setup of contextual and targeted advertising to attract customers.",
+        "features": [
+          "Google Ads",
+          "Facebook Ads",
+          "Targeted advertising",
+          "Retargeting"
+        ]
+      },
+      "cta": "Learn More"
+    },
+    "works": {
+      "title": "Our Projects",
+      "subtitle": "Get to know our latest works",
+      "filters": {
+        "all": "All",
+        "web": "Websites",
+        "design": "Design",
+        "branding": "Branding"
+      },
+      "viewProject": "View Project",
+      "showMore": "Load More"
+    },
+    "process": {
+      "title": "How We Work",
+      "subtitle": "Our streamlined process ensures efficient collaboration and exceptional results for every project",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Discovery",
+          "description": "We begin by understanding your business, goals, and vision through detailed consultation. This phase involves market research, user analysis, and defining project objectives."
+        },
+        {
+          "number": "02",
+          "title": "Strategy",
+          "description": "We develop a comprehensive plan tailored to your specific needs, including content strategy, user experience planning, technology selection, and project roadmap."
+        },
+        {
+          "number": "03",
+          "title": "Design",
+          "description": "Our designers create wireframes, mockups, and prototypes that align with your brand and user expectations. We iterate based on your feedback until the design is perfect."
+        },
+        {
+          "number": "04",
+          "title": "Development",
+          "description": "Our development team brings the designs to life with clean, efficient code. We follow best practices for performance, security, and maintainability."
+        },
+        {
+          "number": "05",
+          "title": "Testing & Launch",
+          "description": "We thoroughly test across devices and browsers, fix any issues, and prepare for a smooth launch. After deployment, we provide support and training as needed."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "subtitle": "What our clients say about us"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the professionals who make your idea a reality"
+    },
+    "cta": {
+      "title": "Ready to start your project?",
+      "subtitle": "Let's collaborate to bring your vision to life and create a digital experience that stands out",
+      "button": "Get in Touch"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "We'd love to hear about your project. Drop us a line, and we'll get back to you as soon as possible.",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "subject": "Subject",
+        "message": "Your Message",
+        "submit": "Send Message",
+        "success": "Thank you! Your message has been successfully sent. We will contact you soon.",
+        "error": "An error occurred while sending the message. Please try again or contact us directly."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "hours": "Monday - Friday, 9am - 6pm",
+        "burgas": "Burgas, Bulgaria",
+        "meeting": "Possibility of personal meetings in Burgas"
+      },
+      "social": {
+        "title": "We are on Social Media",
+        "follow": "Follow us"
+      }
+    },
+    "footer": {
+      "company": "Company",
+      "services": "Services",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "copyright": "© 2025 Impulse Studio. All rights reserved.",
+      "newsletter": {
+        "title": "Subscribe to our newsletter",
+        "description": "Stay updated with our latest projects and insights",
+        "placeholder": "Your email",
+        "button": "Subscribe",
+        "success": "Thanks for subscribing!"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "We create digital products that help businesses grow",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To create innovative digital solutions that help our clients achieve their business goals and stand out from competitors."
+      },
+      "values": {
+        "title": "Our Values",
+        "quality": {
+          "title": "Quality",
+          "description": "We don't compromise on quality and always strive for excellence in every project."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "We constantly explore new technologies and approaches to offer modern solutions."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "We believe in close collaboration with clients to achieve the best results."
+        },
+        "integrity": {
+          "title": "Integrity",
+          "description": "We value transparency and honest relationships with our clients and partners."
+        }
+      },
+      "benefits": {
+        "title": "Why Clients Choose Us",
+        "items": [
+          {
+            "title": "Affordable Prices",
+            "description": "We offer quality solutions at reasonable prices, suitable for small and medium-sized businesses."
+          },
+          {
+            "title": "Individual Approach",
+            "description": "Every project is unique, and we develop tailored solutions that meet your specific needs."
+          },
+          {
+            "title": "Fast Turnaround",
+            "description": "We work efficiently to deliver your project on time without sacrificing quality."
+          },
+          {
+            "title": "Post-Launch Support",
+            "description": "Our collaboration doesn't end with the project launch. We offer ongoing support and updates."
+          }
+        ]
+      }
+    },
+    "error": {
+      "404": {
+        "title": "Page Not Found",
+        "message": "Sorry, the page you are looking for does not exist or has been moved.",
+        "button": "Return to Home"
+      },
+      "500": {
+        "title": "Server Error",
+        "message": "Sorry, there was an error on the server. Please try again later.",
+        "button": "Refresh Page"
+      }
+    },
+    "cookie": {
+      "title": "We use cookies",
+      "message": "This site uses cookies to improve your experience. By clicking 'Accept', you agree to the use of all cookies.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "settings": "Cookie Settings"
+    },
+    "theme": {
+      "light": "Light Theme",
+      "dark": "Dark Theme"
+    },
+    "language": {
+      "ru": "Русский",
+      "bg": "Български",
+      "en": "English"
+    }
+  }
