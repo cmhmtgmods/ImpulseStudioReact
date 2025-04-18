@@ -8,7 +8,7 @@ const nextConfig = {
   i18n: {
     locales: ['en', 'ru', 'bg'],
     defaultLocale: 'ru',
-    localeDetection: true,
+    localeDetection: false, // Изменено с true на false
   },
   experimental: {
     scrollRestoration: true,
